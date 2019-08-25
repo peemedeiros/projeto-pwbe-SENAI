@@ -1,0 +1,395 @@
+h1, h2, h3, p, ul, li, body {
+    margin:0px;
+    padding:0px;
+    font-family: verdana;
+}
+body{
+    background-image: linear-gradient(to right,#6e43c2,#4d77e5);
+}
+#cabecalho{
+    width: 100%;
+    height: 60px;
+    background-color: #252525;
+}
+.conteudo{
+    width: 1250px;
+    height: inherit;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 170px;
+    height: inherit;
+    float:left;
+    margin-right: 80px;
+    box-sizing: border-box;
+    /*padding-top: 10px;*/
+}
+img{
+    width: inherit;
+    height: inherit;
+}
+nav{
+    width: 400px;
+    height: inherit;
+    float:left; 
+}
+nav .menu{
+    width: inherit;
+    height: inherit;
+    float: left;
+    list-style: none;
+    background-color: #252525;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+nav .menu_itens{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+    float: left;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+nav .menu_itens:hover{
+    cursor: pointer;
+}
+.login{
+    width: 500px;
+    height: inherit;
+    background-color:aliceblue;
+    float: right;
+}
+.usuario,.senha{
+    width: 220px;
+    height: inherit;
+    background-color:#252525;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 2px;
+    color: #ffffff;
+}
+
+#caixaUsuario,#caixaSenha{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    outline: 0;
+}
+.caixaBotao{
+    width: 60px;
+    height: inherit;
+    background-color: #252525;
+    float: left;
+    box-sizing: border-box;
+    padding-left:5px;
+    padding-top: 20px;
+}
+.botaoLogin{
+    width: 37px;
+    height: 37px;
+    background-color:#ffffff;
+    color:#000000;
+    border-radius: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+#slider{
+    width: 100%;
+    height: 250px;
+}
+#slider .conteudo{
+    background-color: #fff;
+}
+#corpo_slider {
+    width: 100%;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.slideshow {
+	height:250px;
+	background-color: #CCC;
+	overflow: hidden;
+}
+.slideshowarea {
+	width: 100000px;
+	height: 500px;
+	background-color: #DDD;
+	transition:all 1s;
+}
+.slide {
+	height: 500px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size:cover;
+}
+.slideinfo {
+	height: 70px;
+	background-image:url('../images/slideshow_bg.png');
+	background-size: auto 70px;
+	margin-top: 430px;
+}
+.slideinfo_titulo {
+	font-size: 40px;
+	color: #FFF;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.slideinfo_subtitulo {
+	font-size: 13px;
+	color:#FFF;
+	padding-left: 15px;
+}
+.slide_selection {
+	position:absolute;
+	width:300px;
+	height:100px;
+    padding-left: 5px;
+    padding-top: 15px;
+    box-sizing: border-box;
+	
+}
+.selector {
+	width:30px;
+	height:30px;
+	float:left;
+	margin-right:10px;
+	cursor:pointer;
+	background-color:rgba(255,255,255,0.7);
+	border-radius:15px;
+    border:solid 3px #ffffff;
+}
+#corpo{
+    width: 100%;
+    height: 750px;
+}
+#corpo .conteudo{
+    background-color: #f8f9fa;
+}
+.menu_vertical{
+    width: 250px;
+    height: inherit;
+    background-color:#ffffff;
+    float: left;
+}
+.menu_vertical_caixa{
+    width: 240;
+    height: auto;
+    min-height: 80px;
+    list-style: none;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.menu_vertical_itens{
+    width: inherit;
+    height: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 15px;
+    border:solid 1px #000000; 
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.menu_vertical_itens > .sub_menu:hover{
+    display: block;
+}
+.sub_menu{
+    width: 200px;
+    min-height: 50px;
+    height: auto;
+    background-color: aqua;
+    list-style: none;
+    position: relative;
+    left: 240px;
+    top: -35px;
+    display: none;
+}
+.sub_menu_itens{
+    width: inherit;
+    height: 50px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    background-color: blue;
+    
+}
+
+.produtos{
+    width: 1000px;
+    height: inherit;
+    float: right;
+    box-sizing: border-box;
+    padding-top: 120px;
+    padding-left:10px;
+}
+.caixa_produto{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    border:2px solid #ededed;
+    box-shadow:;
+    box-sizing: border-box;
+    padding-top: 15px; 
+}
+.caixa_produto:hover{
+    transform: translateY(-10px);
+    transition: 0.2s;
+    box-shadow: 0px 5px 15px #cfcfcf;
+    cursor:pointer;
+}
+.img_produto{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 15px;
+}
+.img_produto img{
+    width: inherit;
+    height: inherit;
+    background-color: #ffffff;
+}
+.desc_produto{
+    width: inherit;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #252525;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.desc_produto ul{
+    width: inherit;
+    list-style: none;
+}
+.desc_produto li{
+    width: 280px;
+    height: auto;
+    margin-bottom: 2px;
+    min-height: 20px;
+    background-color: #252525;
+    color:#ffffff;
+}
+.desc_produto .detalhes{
+    text-align: right;
+}
+#rodape{
+    width: 100%;
+    height: 160px;
+}
+#rodape .conteudo{
+    background-color: darkgoldenrod;
+}
+.sistema_interno{
+    width: 325px;
+    height: inherit;
+    background: #252525;
+    float:left;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+#btn_sistema_interno{
+    width: 240px;
+    height: 80px; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.endereco{
+    width: 600px;
+    height: inherit;
+    background-color: #252525;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 130px;
+    color: #ffffff;
+}
+.aplicativo{
+    width: 325px;
+    height: inherit;
+    background-color: #252525;
+    float: left;
+    box-sizing: border-box;
+}
+.app_img{
+    width: 100px;
+    height: inherit;
+    box-sizing: border-box;
+    padding-top: 45px;
+    padding-left: 35px;
+    margin-right: 5px;
+    float: left;
+}
+.app_img img{
+    width: 60px;
+    height: 70px;
+}
+.app_botao{
+    width: 325px;
+    height: inherit;
+    background-color: #252525;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+#btn_app{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

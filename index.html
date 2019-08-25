@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PROJETO
+        </title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header id="cabecalho">
+            <div class="conteudo center">                
+                <div class="logo">
+                    <img src="img/logo-final.png" alt="logo"> 
+                </div>
+                
+                <nav>
+                    <ul class="menu">
+                        <li class="menu_itens">HOME</li>
+                        <li class="menu_itens">HOME</li>
+                        <li class="menu_itens">HOME</li>
+                        <li class="menu_itens">HOME</li>
+                        <li class="menu_itens">HOME</li>
+                    </ul>
+                </nav>
+                <div class="login">
+                    <div class="usuario">
+                        USUARIO:
+                        <input type="email" name="txtUsuario" placeholder="exemple@exemple.com" id="caixaUsuario">
+                    </div>
+                    <div class="senha">
+                        SENHA:
+                        <input type="password" name="txtSenha" placeholder="********" id="caixaSenha">
+                    </div>
+                    <div class="caixaBotao">
+                        <input type="submit" name="btnLogin" class="botaoLogin" value="OK">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="slider">
+            <div class="conteudo center">
+                <!--slider-->
+                <section id="corpo_slider">
+                    <div class="slideshow" id="slideshow">
+                        <div class="slide_selection">
+                            <div class="selector" onclick="MudarSlide(0)"></div>
+                            <div class="selector" onclick="MudarSlide(1)"></div>
+                            <div class="selector" onclick="MudarSlide(2)"></div>
+                            <div class="selector" onclick="MudarSlide(3)"></div>
+                        </div>
+                        <div class="slideshowarea">
+                            
+                            <div class="slide" style="background-color: black">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Heidelberg</div>
+                                </div>	
+                            </div>
+
+
+                            <div class="slide" style="background-color: #cccccc">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Muro de Berlim</div>
+                                </div>	
+                            </div>
+
+
+                            <div class="slide" style="background-color: #333333;">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Annaberg-Buchholz</div>
+                                </div>	
+                            </div>
+
+
+                            <div class="slide" style="background-color: #999999; ">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Brandenburg Gate</div>
+                                </div>	
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section id="corpo">
+            <div class="conteudo center">
+                <div class="menu_vertical">
+                    <ul class="menu_vertical_caixa">
+                        <li class="menu_vertical_itens" id="item1" onclick="toggleMenu()"> ITEM 1
+                            <div>
+                                <ul class="sub_menu" id="sub_menu">
+                                    <li class="sub_menu_itens">sub item</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu_vertical_itens" id="item2" onclick="toggleMenu2()"> ITEM 2
+                            <div>
+                                <ul class="sub_menu" id="sub_menu2">
+                                    <li class="sub_menu_itens">sub item</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="produtos">
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="rodape">
+            <div class="conteudo center">
+                <div class="sistema_interno">
+                    <button id="btn_sistema_interno">
+                        Sistema Interno
+                    </button>
+                </div>
+                <div class="endereco">
+                    Endereço: XXXXXXXXXXX.XXXXXXX - XXXXXXXXX
+                </div>
+                <div class="aplicativo">
+                    <div class="app_img">
+                        <img src="icon/android.png" alt="app">
+                    </div>
+                    <div class="app_botao">
+                        <button id="btn_app">
+                            Baixe o App
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/slider.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
