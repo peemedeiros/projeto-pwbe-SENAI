@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,36 +11,9 @@
         <link type="text/css" rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header id="cabecalho">
-            <div class="conteudo center">                
-                <div class="logo">
-                    <img src="img/logo-final.png" alt="logo"> 
-                </div>
-                
-                <nav>
-                    <ul class="menu">
-                        <li class="menu_itens">HOME</li>
-                        <li class="menu_itens">HOME</li>
-                        <li class="menu_itens">HOME</li>
-                        <li class="menu_itens">HOME</li>
-                        <li class="menu_itens">HOME</li>
-                    </ul>
-                </nav>
-                <div class="login">
-                    <div class="usuario">
-                        USUARIO:
-                        <input type="email" name="txtUsuario" placeholder="exemple@exemple.com" id="caixaUsuario">
-                    </div>
-                    <div class="senha">
-                        SENHA:
-                        <input type="password" name="txtSenha" placeholder="********" id="caixaSenha">
-                    </div>
-                    <div class="caixaBotao">
-                        <input type="submit" name="btnLogin" class="botaoLogin" value="OK">
-                    </div>
-                </div>
-            </div>
-        </header>
+        <?php
+			require_once('modulos/header.php');
+		?>
         <section id="slider">
             <div class="conteudo center">
                 <!--slider-->
@@ -185,28 +161,9 @@
                 </div>
             </div>
         </section>
-        <footer id="rodape">
-            <div class="conteudo center">
-                <div class="sistema_interno">
-                    <button id="btn_sistema_interno">
-                        Sistema Interno
-                    </button>
-                </div>
-                <div class="endereco">
-                    Endereço: XXXXXXXXXXX.XXXXXXX - XXXXXXXXX
-                </div>
-                <div class="aplicativo">
-                    <div class="app_img">
-                        <img src="icon/android.png" alt="app">
-                    </div>
-                    <div class="app_botao">
-                        <button id="btn_app">
-                            Baixe o App
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php
+			require_once('modulos/footer.php');
+		?>
         <script type="text/javascript" src="js/slider.js"></script>
         <script type="text/javascript" src="js/menu.js"></script>
     </body>
