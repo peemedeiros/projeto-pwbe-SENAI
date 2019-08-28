@@ -10,6 +10,8 @@ body{
     width: 100%;
     height: 60px;
     background-color: #252525;
+    position: fixed;
+    z-index: 1;
 }
 .conteudo{
     width: 1250px;
@@ -44,6 +46,7 @@ nav .menu{
     background-color: #252525;
     padding-top: 20px;
     box-sizing: border-box;
+
 }
 nav .menu_itens{
     width: 70px;
@@ -102,6 +105,7 @@ nav .menu_itens:hover{
 #slider{
     width: 100%;
     height: 250px;
+    padding-top: 60px;
 }
 #slider .conteudo{
     background-color: #fff;
