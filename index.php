@@ -63,23 +63,111 @@
             <div class="conteudo center">
                 <div class="menu_vertical">
                     <ul class="menu_vertical_caixa">
-                        <li class="menu_vertical_itens" id="item1" onclick="toggleMenu()"> ITEM 1
-                            <div>
-                                <ul class="sub_menu" id="sub_menu">
-                                    <li class="sub_menu_itens">sub item</li>
-                                </ul>
-                            </div>
+                        <li class="menu_vertical_itens" id="item1"> ITEM 1
+                            <ul class="sub_menu" id="sub_menu">
+                                <li class="sub_menu_itens">sub item</li>
+                            </ul>
                         </li>
-                        <li class="menu_vertical_itens" id="item2" onclick="toggleMenu2()"> ITEM 2
-                            <div>
-                                <ul class="sub_menu" id="sub_menu2">
-                                    <li class="sub_menu_itens">sub item</li>
-                                </ul>
-                            </div>
+                        <li class="menu_vertical_itens" id="item2"> ITEM 2
+                            <ul class="sub_menu" id="sub_menu2">
+                                <li class="sub_menu_itens">sub item</li>
+                                <li class="sub_menu_itens">sub item</li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
                 <div class="produtos">
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="caixa_produto">
+                        <div class="img_produto center">
+                            <img src="img/Silver_Hand.png" alt="produto">
+                        </div>
+                        <div class="desc_produto">
+                            <ul>
+                                <li>Nome:</li>
+                                <li>Descrição:</li>
+                                <li>Preço:</li>
+                                <li class="detalhes">Detalhes</li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="caixa_produto">
                         <div class="img_produto center">
                             <img src="img/Silver_Hand.png" alt="produto">

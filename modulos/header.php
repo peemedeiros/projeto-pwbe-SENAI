@@ -6,10 +6,11 @@
 		<nav>
 			<ul class="menu">
 				<li class="menu_itens">HOME</li>
-				<li class="menu_itens">HOME</li>
-				<li class="menu_itens">HOME</li>
-				<li class="menu_itens">HOME</li>
-				<li class="menu_itens">HOME</li>
+				<li class="menu_itens">SOBRE</li>
+				<li class="menu_itens">CURIOSIDADES</li>
+				<li class="menu_itens">LOJAS</li>
+				<li class="menu_itens">PROMOÇÕES</li>
+				<li class="menu_itens">DESTAQUE DO MÊS</li>
 			</ul>
 		</nav>
 		<div class="login">
