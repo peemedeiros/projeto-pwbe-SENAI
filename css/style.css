@@ -4,7 +4,7 @@ h1, h2, h3, p, ul, li, body {
     font-family: verdana;
 }
 body{
-
+	background-image: linear-gradient(to right,#6e43c2,#4d77e5);
 }
 #cabecalho{
     width: 100%;
@@ -184,6 +184,7 @@ nav .menu_itens:hover{
     height: inherit;
     background-color:#ffffff;
     float: left;
+	margin-right: 200px;
     background-color: #252525;
 }
 .menu_vertical_caixa{
@@ -239,7 +240,7 @@ nav .menu_itens:hover{
 .produtos{
     width: 1000px;
     height: inherit;
-    float: right;
+    float: left; 
     box-sizing: border-box;
     padding-top: 120px;
     padding-left:10px;
@@ -254,6 +255,7 @@ nav .menu_itens:hover{
     box-shadow:;
     box-sizing: border-box;
     padding-top: 15px; 
+	background-color: #ffffff;
 }
 .caixa_produto:hover{
     transform: translateY(-10px);
