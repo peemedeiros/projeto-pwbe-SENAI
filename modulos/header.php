@@ -5,8 +5,16 @@
 		</div>
 		<nav>
 			<ul class="menu">
-				<li class="menu_itens">HOME</li>
-				<li class="menu_itens">SOBRE</li>
+				<li class="menu_itens">
+					<a href="index.php">
+						HOME
+					</a>
+				</li>
+				<li class="menu_itens">
+					<a href="sobre.php">
+						SOBRE
+					</a>
+				</li>
 				<li class="menu_itens">CURIOSIDADES</li>
 				<li class="menu_itens">LOJAS</li>
 				<li class="menu_itens">PROMOÇÕES</li>
