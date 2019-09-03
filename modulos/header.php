@@ -1,7 +1,7 @@
 <header id="cabecalho">
 	<div class="conteudo center">                
 		<div class="logo">
-			<img src="img/logo-final.png" alt="logo"> 
+			<img src="icon/logo-main.png" alt="logo"> 
 		</div>
 		<nav>
 			<ul class="menu">
@@ -15,10 +15,8 @@
 						SOBRE
 					</a>
 				</li>
-				<li class="menu_itens">CURIOSIDADES</li>
 				<li class="menu_itens">LOJAS</li>
 				<li class="menu_itens">PROMOÇÕES</li>
-				<li class="menu_itens">DESTAQUE DO MÊS</li>
 			</ul>
 		</nav>
 		<div class="login">

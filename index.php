@@ -5,10 +5,11 @@
 <html>
     <head>
         <title>
-            PROJETO
+            Delicia Gelada
         </title>
         <meta charset="utf-8">
         <link type="text/css" rel="stylesheet" href="css/style.css">
+		<link rel="icon" href="icon/logo-main.png" type="image/x-icon" />
     </head>
     <body>
         <?php
