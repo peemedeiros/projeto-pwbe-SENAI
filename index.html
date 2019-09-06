@@ -12,9 +12,42 @@
 		<link rel="icon" href="icon/logo-main.png" type="image/x-icon" />
     </head>
     <body>
-        <?php
-			require_once('modulos/header.php');
-		?>
+        <header id="cabecalho">
+            <div class="conteudo center">                
+                <div class="logo">
+                    <img src="icon/logo-main.png" alt="logo"> 
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu_itens">
+                            <a href="index.html">
+                                HOME
+                            </a>
+                        </li>
+                        <li class="menu_itens">
+                            <a href="sobre.html">
+                                SOBRE
+                            </a>
+                        </li>
+                        <li class="menu_itens">LOJAS</li>
+                        <li class="menu_itens">PROMOÇÕES</li>
+                    </ul>
+                </nav>
+                <div class="login">
+                    <div class="usuario">
+                        USUARIO:
+                        <input type="email" name="txtUsuario" placeholder="exemple@exemple.com" id="caixaUsuario">
+                    </div>
+                    <div class="senha">
+                        SENHA:
+                        <input type="password" name="txtSenha" placeholder="********" id="caixaSenha">
+                    </div>
+                    <div class="caixaBotao">
+                        <input type="submit" name="btnLogin" class="botaoLogin" value="OK">
+                    </div>
+                </div>
+            </div>
+        </header>
         <section id="slider">
             <div class="conteudo center">
                 <!--slider-->
@@ -250,9 +283,28 @@
                 </div>
             </div>
         </section>
-        <?php
-			require_once('modulos/footer.php');
-		?>
+        <footer id="rodape">
+            <div class="conteudo center">
+                <div class="sistema_interno">
+                    <button id="btn_sistema_interno">
+                        Sistema Interno
+                    </button>
+                </div>
+                <div class="endereco">
+                    Endereço: XXXXXXXXXXX.XXXXXXX - XXXXXXXXX
+                </div>
+                <div class="aplicativo">
+                    <div class="app_img">
+                        <img src="icon/android.png" alt="app">
+                    </div>
+                    <div class="app_botao">
+                        <button id="btn_app">
+                            Baixe o App
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script type="text/javascript" src="js/slider.js"></script>
         <script type="text/javascript" src="js/menu.js"></script>
     </body>

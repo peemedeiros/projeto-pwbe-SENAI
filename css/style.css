@@ -70,6 +70,33 @@ nav .menu_itens:hover{
     cursor: pointer;
 	background-color:#7A2020;
 }
+.menu-submenu{
+    width:120px;
+    min-height: 60px;
+    height: auto;
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+}
+.menu_itens:hover > .menu-submenu{
+    visibility: visible;
+    transition: 1s;
+    opacity: 1;
+    top:60px;
+}
+.menu-submenu-itens{
+    width: inherit;
+    height: 60px;
+    background-color:#7A2020;
+    box-sizing: border-box;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.menu-submenu-itens:hover{
+    background-color:#D62D2D;
+}
 .login{
     width: 500px;
     height: inherit;
