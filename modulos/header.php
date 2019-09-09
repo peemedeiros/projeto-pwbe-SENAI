@@ -14,9 +14,36 @@
 					<a href="sobre.php">
 						SOBRE
 					</a>
+					<ul class="menu-dropdown">
+						<a href="curiosidades.php">
+							<li class="menu-dropdown-itens">
+								CURIOSIDADES
+							</li>
+						</a>
+						<a href="lojas.php">
+							<li class="menu-dropdown-itens">
+								LOJAS
+							</li>
+						</a>
+					</ul>
 				</li>
-				<li class="menu_itens">LOJAS</li>
-				<li class="menu_itens">PROMOÇÕES</li>
+				<li class="menu_itens">
+					<a href="promocoes.php">
+						PROMOÇÕES
+					</a>
+					<ul class="menu-dropdown">
+						<a href="destaque.php">
+							<li class="menu-dropdown-itens">
+								DESTAQUES DO MÊS
+							</li>
+						</a>
+					</ul>
+				</li>
+				<li class="menu_itens">
+					<a href="contato.php	">
+						CONTATO
+					</a>
+				</li>
 			</ul>
 		</nav>
 		<div class="login">
