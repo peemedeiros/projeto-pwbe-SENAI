@@ -143,11 +143,11 @@ nav .menu_itens:hover > .menu-dropdown {
     padding-top: 200px;
 	padding-bottom: 100px;
 	margin-bottom: 20px;
-	background-image: url('../img/floresta.jpg');
+	background-image: url('../img/floresta2.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom
+	background-position: center;
 }
 #slider .conteudo{
     background-color: #fff;
@@ -174,7 +174,7 @@ nav .menu_itens:hover > .menu-dropdown {
 	height: 450px;
 	float: left;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: center;
 	background-size:cover;
 }
 .slideinfo {
@@ -239,6 +239,7 @@ nav .menu_itens:hover > .menu-dropdown {
     min-height: 80px;
     list-style: none;
     box-sizing: border-box;
+	border-right: solid 2px #999;
 }
 .menu_vertical_itens{
     width: inherit;
@@ -250,7 +251,7 @@ nav .menu_itens:hover > .menu-dropdown {
     cursor: pointer;
 }
 .menu_vertical_itens:hover{
-    background-color: aliceblue;
+    background-color: #e8e8e8;
     color:#000000;
 }
 .menu_vertical_itens:hover > .sub_menu{
@@ -261,10 +262,9 @@ nav .menu_itens:hover > .menu-dropdown {
     width: 200px;
     min-height: 50px;
     height: auto;
-    background-color: aqua;
     list-style: none;
     position: relative;
-    left: 249px;
+    left: 248px;
     top: -34px;
     display: none;
 }
@@ -273,11 +273,11 @@ nav .menu_itens:hover > .menu-dropdown {
     height: 50px;
     box-sizing: border-box;
     padding-top: 15px;
-    background-color: blue;
+    background-color: #e8e8e8;
     
 }
 .sub_menu_itens:hover{
-    background-color: aquamarine;
+    background-color:#ededed;
 }
 
 .produtos{
@@ -424,14 +424,14 @@ nav .menu_itens:hover > .menu-dropdown {
     width: 100%;
     height: 160px;
     float: left;
+	background-image: linear-gradient(to bottom,#D62D2D,#7A2020);
 }
 #rodape .conteudo{
-    background-color: darkgoldenrod;
+
 }
 .sistema_interno{
     width: 325px;
     height: inherit;
-    background: #252525;
     float:left;
     box-sizing: border-box;
     padding-left: 40px;
@@ -447,7 +447,6 @@ nav .menu_itens:hover > .menu-dropdown {
 .endereco{
     width: 850px;
     height: inherit;
-    background-color: #252525;
     float: left;
     box-sizing: border-box;
     text-align: center;
@@ -457,7 +456,6 @@ nav .menu_itens:hover > .menu-dropdown {
 .aplicativo{
     width: 325px;
     height: inherit;
-    background-color: #252525;
     float: left;
     box-sizing: border-box;
 }
@@ -477,7 +475,6 @@ nav .menu_itens:hover > .menu-dropdown {
 .app_botao{
     width: 325px;
     height: inherit;
-    background-color: #252525;
     box-sizing: border-box;
     padding-top: 50px;
 }

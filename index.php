@@ -28,28 +28,28 @@
                         </div>
                         <div class="slideshowarea">
                             
-                            <div class="slide" style="background-color: black">
+                            <div class="slide" style="background-image:url('img/floresta.jpg');">
                                 <div class="slideinfo">
                                     <div class="slideinfo_titulo">Heidelberg</div>
                                 </div>	
                             </div>
 
 
-                            <div class="slide" style="background-color: #cccccc">
+                            <div class="slide" style="background-image:url('img/cocacafe.jpg')">
                                 <div class="slideinfo">
                                     <div class="slideinfo_titulo">Muro de Berlim</div>
                                 </div>	
                             </div>
 
 
-                            <div class="slide" style="background-color: #333333;">
+                            <div class="slide" style="background-image:url('img/mountain.png')">
                                 <div class="slideinfo">
                                     <div class="slideinfo_titulo">Annaberg-Buchholz</div>
                                 </div>	
                             </div>
 
 
-                            <div class="slide" style="background-color: #999999; ">
+                            <div class="slide" style="background-image:url('img/redbull.jpg')">
                                 <div class="slideinfo">
                                     <div class="slideinfo_titulo">Brandenburg Gate</div>
                                 </div>	

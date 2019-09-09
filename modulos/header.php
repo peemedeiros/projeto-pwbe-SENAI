@@ -40,7 +40,7 @@
 					</ul>
 				</li>
 				<li class="menu_itens">
-					<a href="contato.php	">
+					<a href="contato.php">
 						CONTATO
 					</a>
 				</li>
